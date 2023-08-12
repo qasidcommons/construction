@@ -8,6 +8,7 @@ export default function Home() {
         <p>Qasid student information system currently under maintenance
         </p>
       </div>
+      <div>
         <p>Please check back after a few hours</p>
         <p><a href="https://www.qasid.com">Visit qasid.com</a></p>
       </div>
