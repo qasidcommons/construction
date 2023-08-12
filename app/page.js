@@ -10,10 +10,10 @@ export default function Home() {
       </div>
       <div className={styles.description}>
         <h2>Please check back in a few hours</h2>
-    </div>
-          <div className={styles.description}>
+      </div>
+      <div className={styles.description}>
         <h3><a href="https://www.qasid.com">Go to www.qasid.com in the meantime</a></h3>
-    </div>
+      </div>
     </main>
   )
 }
