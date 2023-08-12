@@ -5,17 +5,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>Qasid student information system currently under maintenance
-        </p>
+        <h1>Qasid student information system currently under maintenance
+        </h1>
       </div>
      <div className={styles.center}>
       <a href="https://www.qasid.com">
-        <Image
-          className={styles.logo}
-          src="https://www.qasid.com/wp-content/themes/qasid/images/qasid_header_logo@2x.png"
-          alt="Qasid logo"
-          priority
-        />
+        Go to www.qasid.com in the meantime
       </a>
       </div>
     </main>
