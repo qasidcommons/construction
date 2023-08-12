@@ -8,9 +8,15 @@ export default function Home() {
         <p>Qasid student information system currently under maintenance
         </p>
       </div>
-      <div>
-        <p>Please check back after a few hours</p>
-        <p><a href="https://www.qasid.com">Visit qasid.com</a></p>
+     <div className={styles.center}>
+      <a href="https://www.qasid.com">
+        <Image
+          className={styles.logo}
+          src="https://www.qasid.com/wp-content/themes/qasid/images/qasid_header_logo@2x.png"
+          alt="Qasid logo"
+          priority
+        />
+      </a>
       </div>
     </main>
   )
